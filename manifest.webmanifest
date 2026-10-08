@@ -1,0 +1,23 @@
+{
+  "id": "./play.html",
+  "name": "Blind Path",
+  "short_name": "Blind Path",
+  "description": "A hardcore 3D survival platformer on a crumbling lava bridge.",
+  "start_url": "./play.html",
+  "scope": "./",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "any",
+  "background_color": "#0b0508",
+  "theme_color": "#0b0508",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
+    { "src": "img/level1.jpg", "sizes": "1280x720", "type": "image/jpeg", "form_factor": "wide", "label": "Cross the lava bridge" },
+    { "src": "img/mobile.jpg", "sizes": "390x780", "type": "image/jpeg", "form_factor": "narrow", "label": "Touch controls on phone" }
+  ]
+}
